@@ -23,6 +23,16 @@ describe('Test diary endpoints at "/v1/entries" with (GET, POST) and "/v1/entrie
             done();
           });
       });
+      it("should NOT get a diary entry at '/v1/entries/:id' with GET if id does not exist", (done) => {
+        const id = 10;
+        chai.request(app)
+          .get(`/v1/entries/${id}`)
+          .then((res) => {
+            expect(res).to.have.status(404);
+            expect(res.body).to.have.property('message').equal('Diary entry does not exist');
+            done();
+          });
+      });
     });
   });
 });
