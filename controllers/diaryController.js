@@ -1,7 +1,12 @@
 import diaryList from '../models/diaryModel';
 
 class DiaryController {
-  static getAll() {}
+  static getAll(req, res) {
+    res.status(200).json({
+      diaryList,
+      message: 'Diary entries successfully retrieved',
+    });
+  }
 
   static createOne() {}
 
