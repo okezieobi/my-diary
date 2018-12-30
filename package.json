@@ -9,7 +9,9 @@
     "release": "npm run clean && npm run build && npm run serve",
     "clean": "rm -rf dist && mkdir dist",
     "build": "babel . -s -D -d dist --presets env --ignore node_modules",
-    "serve": "node dist/index.js"
+    "serve": "node dist/index.js",
+    "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
+    "codeClimate": "nyc --reporter=lcov npm test"
   },
   "repository": {
     "type": "git",

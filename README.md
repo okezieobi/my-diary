@@ -10,7 +10,7 @@ Optional Features
 
 Pivotal Stories https://www.pivotaltracker.com/projects/2234494
 
-TravisCI badge
+TravisCI create one badge
 [![Build Status](https://travis-ci.com/okezieobi/my-diary.svg?branch=ft-create-one-entry-%23162879593)](https://travis-ci.com/okezieobi/my-diary)
 
 Coveralls badge
