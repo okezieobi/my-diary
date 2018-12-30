@@ -11,7 +11,7 @@ Optional Features
 Pivotal Stories https://www.pivotaltracker.com/projects/2234494
 
 TravisCI badge
-[![Build Status](https://travis-ci.com/okezieobi/my-diary.svg?branch=master)](https://travis-ci.com/okezieobi/my-diary)
+[![Build Status](https://travis-ci.com/okezieobi/my-diary.svg?branch=ft-create-one-entry-%23162879593)](https://travis-ci.com/okezieobi/my-diary)
 
 Coveralls badge
 [![Coverage Status](https://coveralls.io/repos/github/okezieobi/my-diary/badge.svg?branch=master)](https://coveralls.io/github/okezieobi/my-diary?branch=master)
