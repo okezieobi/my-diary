@@ -9,3 +9,13 @@ Optional Features
 1. Users can set and get daily notifications that prompt them to add an entry to their diary.
 
 Pivotal Stories https://www.pivotaltracker.com/projects/2234494
+
+TravisCI badge
+[![Build Status](https://travis-ci.com/okezieobi/my-diary.svg?branch=master)](https://travis-ci.com/okezieobi/my-diary)
+
+Coveralls badge
+[![Coverage Status](https://coveralls.io/repos/github/okezieobi/my-diary/badge.svg?branch=master)](https://coveralls.io/github/okezieobi/my-diary?branch=master)
+
+Code Climate badges
+[![Maintainability](https://api.codeclimate.com/v1/badges/797765550a7f9efddba5/maintainability)](https://codeclimate.com/github/okezieobi/my-diary/maintainability) 
+[![Test Coverage](https://api.codeclimate.com/v1/badges/797765550a7f9efddba5/test_coverage)](https://codeclimate.com/github/okezieobi/my-diary/test_coverage)
